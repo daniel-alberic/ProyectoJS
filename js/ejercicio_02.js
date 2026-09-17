@@ -12,6 +12,6 @@ let totalPagar = subTotal + montoIgv;
 console.log("🛒Producto: ", nombreProducto);
 console.log("Precio base S/ : ", precioProducto);
 console.log("Descuento (8%) S/ :", descuento);
-console.log("subTotal S/ :", descuento);
+console.log("subTotal S/ :", subTotal);
 console.log("IGV (18%) S/ :", montoIgv);
 console.log("Total a Pagar S/ :", totalPagar);
