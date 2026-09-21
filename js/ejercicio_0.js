@@ -1,4 +1,4 @@
-// Declaración de variables y tipos de datos
+ // Declaración de variables y tipos de datos
 const nombreProducto = "Laptop Gamer";
 let precioOriginal = "4500.99";
 const descuento = 15;
