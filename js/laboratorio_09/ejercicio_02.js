@@ -1,0 +1,27 @@
+const pinCorrecto = "1234";
+
+const intentos = ["2342", "3563", "2309"];
+let intentosRealizados = 0;
+const maxIntentos = 3;
+let accesoConcedido = false;
+
+do {
+    let pinIngresado = intentos [intentosRealizados];
+    intentosRealizados++;
+
+    console.log(`Intento ${intentosRealizados}: Ingresando PIN...`);
+    if (pinIngresado === pinCorrecto) {
+        console.log("PIN Aceptado. Bienvenido al Sistema");
+        accesoConcedido = true;
+    }
+
+    else {
+        console.log("PIN INCORRECTO.");
+    }
+
+}
+while(!accesoConcedido && intentosRealizados < maxIntentos);
+
+if(!accesoConcedido) {
+    console.log("!!TARJETA BLOQUEADA¡¡");
+}
