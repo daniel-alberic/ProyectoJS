@@ -18,3 +18,4 @@ for (let i = 0; i < carrito.length; i++) {
 }
 
 console.log("El total a pagar es: S/ " + totalPagar.toFixed(2));
+console.log("Total elementos en el carrito: " + carrito.length);
